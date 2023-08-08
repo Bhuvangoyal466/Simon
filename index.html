@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simon Says Game</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" type="text/css" href="say.css" />
+        <base href="/Simon/" />
+    </head>
+    <body>
+        <p class="heading">
+            Get Ready to Play<i
+                class="fa-solid fa-gamepad"
+                style="color: #ffffff"
+            ></i>
+        </p>
+        <p id="status">
+            Press Any Key to Start the Game!!<i
+                class="fa-solid fa-flag-checkered"
+                style="color: #ffffff"
+            ></i>
+        </p>
+        <div id="game-container">
+            <div class="button" id="red" onclick="checkInput('red')"></div>
+            <div class="button" id="blue" onclick="checkInput('blue')"></div>
+            <div class="button" id="green" onclick="checkInput('green')"></div>
+            <div
+                class="button"
+                id="yellow"
+                onclick="checkInput('yellow')"
+            ></div>
+        </div>
+
+        <script src="say.js"></script>
+    </body>
+</html>
