@@ -21,7 +21,9 @@ A fun and interactive **Simon Says** memory game built using **HTML, CSS, and Ja
 🔹 **JavaScript** – Implements game logic and interactions.  
 
 ## 🎨 **Screenshots**  
-*(Add game screenshots here if needed)*  
+![WhatsApp Image 2025-03-06 at 14 34 08_3bf9fe01](https://github.com/user-attachments/assets/09cd1da8-a796-4084-ad56-b4d9e524b46c)
+![Screenshot 2025-03-06 143234](https://github.com/user-attachments/assets/1056c6fd-f2c6-426a-ba82-682ac3bf8974)
+
 
 ## 📂 ***Project Structure***  
 ```bash
